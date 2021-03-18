@@ -2,7 +2,21 @@
 
 
 html{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     font-family: sans-serif;
     background-color: black;
     color:greenyellow;
+}
+
+body .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 200px;
+    width: 650px;
 }

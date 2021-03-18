@@ -13,20 +13,24 @@ E' con grande piacere ragazzi che vi do il benvenuto nel bellissimo mondo JavaSc
 A domani mattina :faccia_leggermente_sorridente:
 */
 
-console.log("start");
+console.log("start!!");
 
-var nome,cognome,colore;
+var nome,cognome,colore,password;
 
 nome = prompt("nome","inserisci il tuo nome");
 
-console.log("\nnome ",nome);
+console.log("\nnome: ",nome);
 
 cognome = prompt("cognome","inserisci il tuo cognome");
 
-console.log("\ncognome ",cognome);
+console.log("\ncognome: ",cognome);
 
 colore = prompt("colore","inserisci il tuo colore preferito");
 
-console.log("\ncolore ",colore);
+console.log("\ncolore: ",colore);
 
-console.log("\n la tua password é: "+nome+cognome+colore+"21");
+password ="\n la tua password é: "+ nome+cognome+colore+"21";
+
+console.log("\n la tua password é: "+password);
+
+document.getElementById("password").innerHTML=password;
