@@ -34,7 +34,7 @@ console.log(password);
 
 document.getElementById("password").innerHTML=password;
 
-for (i=0; i<=10;i++){
+for (i=0; i<10;i++){
     temp = Math.random() * 93 + 33;
     console.log(temp);
     temp = Math.trunc(temp);
@@ -44,4 +44,4 @@ for (i=0; i<=10;i++){
     }
     
     
-document.write(x);
+document.getElementById("password2").innerHTML="Codice pseudocasuale di 10 caratteri: "+x;
