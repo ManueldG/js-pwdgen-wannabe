@@ -19,14 +19,14 @@ var nome,cognome,colore;
 
 nome = prompt("nome","inserisci il tuo nome");
 
-console.log("\nnome");
+console.log("\nnome ",nome);
 
 cognome = prompt("cognome","inserisci il tuo cognome");
 
-console.log("\nnome");
+console.log("\ncognome ",cognome);
 
 colore = prompt("colore","inserisci il tuo colore preferito");
 
-console.log("\ncolore");
+console.log("\ncolore ",colore);
 
 console.log("\n la tua password é: "+nome+cognome+colore+"21");
